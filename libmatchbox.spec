@@ -1,7 +1,7 @@
 Summary:        Libraries for the Matchbox Desktop
 Name:           libmatchbox 
 Version:        1.9
-Release:        13%{?dist}
+Release:        15%{?dist}
 Url:            http://projects.o-hand.com/matchbox/
 License:        LGPLv2+
 Group:          Development/Libraries 
@@ -70,6 +70,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_includedir}/libmb/*.h
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.9-15
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.9-14
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.9-13
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
